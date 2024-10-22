@@ -1,12 +1,8 @@
 while True:
-    son=int(input("son kiritin:"))
-    print(f"{son} ning kvadrati {son**2}")
-
-    sovol=input("davom etamizmi (yes/no)")
-    if sovol=="yes":
-        continue
-    elif sovol=="no":
+    yosh=int(input("yoshizi kiritin:"))
+    print(f"{yosh} szni yoshiz")
+    sovol=input("davom etamizmi (exit):")
+    if sovol=="exit":
         break
-    else:
-        print("siz notugri son kiritiz:")
+
     
