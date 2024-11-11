@@ -29,5 +29,14 @@
 #         print(f"{2024 - int(a)}")
  
 
+from math import sqrt
+while 5:
+    son=input("son kiritin:")
+    if son.isdigit():
+        print(f"{son} ning ildizi {int(sqrt(son))}") 
+    elif son=="net":
+        print("dastur tugadi:")
+    break
+
 
     

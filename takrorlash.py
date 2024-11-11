@@ -338,11 +338,11 @@ from random import randrange
 #     print(f"{a} = {s}")
 
 """005"""
-son=list(range(3,873,2))   
-print(son)
-for s in son:
-    print(sqrt(s))
-"3"
+# son=list(range(3,873,2))   
+# print(son)
+# for s in son:
+#     print(sqrt(s))
+# "3"
 # "4"
 # son=list(range(102, 2019))
 # for s in son:
@@ -367,5 +367,42 @@ for s in son:
 #     print(f"{a} < {s}")
 # else:
 #     print(f"{a} = {s}")
+
+name="  anton   "
+print(name.lstrip)
+
+name="  anton   "
+print(name.strip)
+
+print(name.lower())
+print(name.upper())
+print(name.capitalize())
+
+# son=["olma","nok","malina","apelsi",]
+# print(son)
+# son.sort()
+# print(son)
+# son.sort(reverse=True)
+# print(son)
+# son.insert(0,"amaloy")
+# son.insert(1,"loy")
+# print(son)
+
+dav={
+    "lola":"corsu",
+    "asd":"namangan",
+    "toraqorgon":"cors",
+    "sardoba":"cust",
+}
+s = input("soz kiritin:")
+for k,y in dav.items():
+
+    if s==k:
+        print(y)
+    elif s==y:
+        print(k)
+    
+if s  not in dav.keys() and s not in dav.values():
+    print("xato soz kiritiz:")
 
 
